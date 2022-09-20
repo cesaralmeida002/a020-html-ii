@@ -1,11 +1,20 @@
+<!--
+Na página sugestão.html, crie um formulário na área indicada. 
+O formulário deve possuir três inputs, cada um com seu **label**. 
+Os campos a ser preenchidos devem ser:
+- Nome
+- e-mail
+- Sugestão de clima    
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Sugestão de clima</title>
 </head>
 
@@ -14,14 +23,23 @@
         <h1><a href="./index.html">Simulador de Climas</a></h1>
     </div>
     <div class="b">
-        <div class="c">
-
-<!-- Seu formukário aqui!-->
-        </div>
-
+        <input class="c">
+        <!-- Seu formukário aqui!-->
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required></input>
+            <button type="submit">Enviar</button>
+            <br>
+            <label for="e-mail">E-mail:</label>
+            <input type="email" name="e-mail" id="e-mail" required>
+            <button type="submit">Enviar</button>
+            <br>
+            <label for="Sugestão de Clima">Sugestão de Clima:</label>
+            <input type="text" name="Sugestão de Clima" id="clima" required>
+            <button type="menu">Enviar</button>
+    </form>
     </div>
     <div class="e">Footer</div>
-
 </body>
 
 </html>
